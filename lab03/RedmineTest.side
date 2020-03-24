@@ -1,0 +1,169 @@
+{
+  "id": "357a4bef-7756-4767-b09c-26da8ae44fbf",
+  "version": "2.0",
+  "name": "RedmineTest",
+  "url": "http://demo.redmine.org",
+  "tests": [{
+    "id": "3fe0eb60-4f21-4a0a-a6ff-7fb9f77e32a0",
+    "name": "RedmineTest",
+    "commands": [{
+      "id": "380e4216-b8c6-4ba3-bbc3-3727924cf28c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f753613a-6127-4f70-a2dc-7ae78446939a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1360x684",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ea74c5e-e7d7-4063-acba-f20b264158e2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign in",
+      "targets": [
+        ["linkText=Sign in", "linkText"],
+        ["css=.login", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign in')]", "xpath:link"],
+        ["xpath=//div[@id='account']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/login')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a507655d-5636-4ee2-a52b-1089e49a60d5",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='login-form']/form/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83f1ab4a-8530-41cb-9ac1-6542300170e3",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='login-form']/form/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "tiagomendes"
+    }, {
+      "id": "2d7d38b8-0128-4f58-b406-c687dafd3d10",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='login-form']/form/table/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "15a4855f-95e6-4c5a-8fc0-c99d9dfe08b1",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='login-form']/form/table/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "12345"
+    }, {
+      "id": "041512bb-9e65-44f3-9d02-3a735a98a040",
+      "comment": "",
+      "command": "click",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=tr:nth-child(4) input", "css:finder"],
+        ["xpath=//input[@name='login']", "xpath:attributes"],
+        ["xpath=//div[@id='login-form']/form/table/tbody/tr[4]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e12f245a-e624-44cb-a281-8cf77feee7ac",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=tiagomendes",
+      "targets": [
+        ["linkText=tiagomendes", "linkText"],
+        ["css=#loggedas > .user", "css:finder"],
+        ["xpath=//a[contains(text(),'tiagomendes')]", "xpath:link"],
+        ["xpath=//div[@id='loggedas']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/users/433521')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'tiagomendes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f31a6599-39ee-4448-8e44-77727e719be0",
+      "comment": "",
+      "command": "click",
+      "target": "id=top-menu",
+      "targets": [
+        ["id=top-menu", "id"],
+        ["css=#top-menu", "css:finder"],
+        ["xpath=//div[@id='top-menu']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper3']/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b385086d-e385-49e5-a6be-7860be746abe",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign out",
+      "targets": [
+        ["linkText=Sign out", "linkText"],
+        ["css=.logout", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign out')]", "xpath:link"],
+        ["xpath=//div[@id='account']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/logout')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4e0b233-ab1d-4a6a-bb2a-974cb03a52b8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign in",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "931b3c74-cdd2-464d-8f56-5df4fe21aba2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3fe0eb60-4f21-4a0a-a6ff-7fb9f77e32a0"]
+  }],
+  "urls": ["http://demo.redmine.org/"],
+  "plugins": []
+}
